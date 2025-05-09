@@ -1,0 +1,6 @@
+@AutoNomā_HostAddress = http://localhost:5182
+
+GET {{AutoNomā_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "FPSKF1StyVE8OCo6eTeaC5ygKu8JWrFTStWg0bGJor0=",
+  "Source": "AutoNomā",
+  "BasePath": "_content/AutoNomā",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoNomā\\wwwroot",
+      "Source": "AutoNomā",
+      "ContentRoot": "C:\\Users\\artis\\AutoNomā\\wwwroot\\",
+      "BasePath": "_content/AutoNomā",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\2lw8svl41y-1qkk0lyg8m.gz",
+      "SourceId": "AutoNomā",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AutoNomā",
+      "RelativePath": "css/style#[.{fingerprint=1qkk0lyg8m}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\artis\\AutoNomā\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yhwuc19gz4",
+      "Integrity": "BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\artis\\AutoNomā\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\l9csw7qxkh-bo9yccq1sq.gz",
+      "SourceId": "AutoNomā",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AutoNomā",
+      "RelativePath": "js/script#[.{fingerprint=bo9yccq1sq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\artis\\AutoNomā\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4w02ryr7nv",
+      "Integrity": "BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\artis\\AutoNomā\\wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\artis\\AutoNomā\\wwwroot\\css\\style.css",
+      "SourceId": "AutoNomā",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\artis\\AutoNomā\\wwwroot\\",
+      "BasePath": "_content/AutoNomā",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qkk0lyg8m",
+      "Integrity": "F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\artis\\AutoNomā\\wwwroot\\js\\script.js",
+      "SourceId": "AutoNomā",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\artis\\AutoNomā\\wwwroot\\",
+      "BasePath": "_content/AutoNomā",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bo9yccq1sq",
+      "Integrity": "e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.1qkk0lyg8m.css",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\2lw8svl41y-1qkk0lyg8m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.009345794393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qkk0lyg8m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.1qkk0lyg8m.css",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qkk0lyg8m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.1qkk0lyg8m.css.gz",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\2lw8svl41y-1qkk0lyg8m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qkk0lyg8m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\2lw8svl41y-1qkk0lyg8m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.009345794393"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F8YdrZf5iQH73HecHiftt7yoFAXh6M4kctRkTO9Zw/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\2lw8svl41y-1qkk0lyg8m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BsACRImMgeYnTg4m/td/DgywfEqYU0wEDXB6sHzeNIY="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.bo9yccq1sq.js",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\l9csw7qxkh-bo9yccq1sq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008064516129"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bo9yccq1sq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.bo9yccq1sq.js",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bo9yccq1sq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.bo9yccq1sq.js.gz",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\l9csw7qxkh-bo9yccq1sq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bo9yccq1sq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\l9csw7qxkh-bo9yccq1sq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008064516129"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e4G1c5/rhK17NGpqfr5UalTwp6KfnE/eTBLJHHgHMsI="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "C:\\Users\\artis\\AutoNomā\\obj\\Debug\\net9.0\\compressed\\l9csw7qxkh-bo9yccq1sq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:53:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BKSssslqPWhbHC8S5V4t/Siffr758g5tIVGymK7HZFc="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+@page
+@model AutoNomā.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Laipni lūdzam Car Rental sistēmā!</h1>
+    <p class="lead">Lūdzu izvēlieties darbību:</p>
+    <hr class="my-4">
+    <div class="list-group">
+        <a class="list-group-item list-group-item-action" href="/Cars/List">
+            🚗 Skatīt automašīnu sarakstu
+        </a>
+        <a class="list-group-item list-group-item-action" href="/Reservations/Create">
+            📝 Veikt rezervāciju
+        </a>
+    </div>
+</div>

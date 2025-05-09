@@ -1,0 +1,43 @@
+@page
+@model AutoNomā.Pages.Reservations.CreateModel
+
+@{
+    ViewData["Title"] = "Veikt rezervāciju";
+}
+
+
+<form method="post">
+    <input type="hidden" name="Rezervācija.AutoId" value="1" />
+    <input type="hidden" name="Rezervācija.StartDate" value="2025-05-10" />
+    <input type="hidden" name="Rezervācija.EndDate" value="2025-05-11" />
+    <button type="submit">TESTS → Veikt rezervāciju</button>
+</form>
+
+<h2>Veikt rezervāciju</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="AutoId">Izvēlieties automašīnu</label>
+        <select id="AutoId" name="Rezervācija.AutoId" class="form-control" required>
+            @foreach (var car in Model.Cars)
+            {
+                <option value="@car.Id">@car.Marka @car.Modelis</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="StartDate">Sākuma datums</label>
+        <input type="date" name="Rezervācija.StartDate" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="EndDate">Beigu datums</label>
+        <input type="date" name="Rezervācija.EndDate" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Veikt rezervāciju</button>
+</form>
+
+
+

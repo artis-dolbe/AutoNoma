@@ -1,0 +1,51 @@
+@page
+@model AutoNomā.Pages.Lietotāji.CreateModel
+
+@{
+    ViewData["Title"] = "Reģistrēties";
+}
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>@ViewData["Title"]</h2>
+
+        <form method="post">
+            <div class="mb-3">
+                <label for="Lietotājvārds" class="form-label">Lietotājvārds</label>
+                <input type="text" class="form-control" id="Lietotājvārds" name="Lietotājvārds" asp-for="Lietotājs.Lietotājvārds" required />
+                <span asp-validation-for="Lietotājs.Lietotājvārds" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="E_pasts" class="form-label">E-pasts</label>
+                <input type="email" class="form-control" id="E_pasts" name="E_pasts" asp-for="Lietotājs.E_pasts" required />
+                <span asp-validation-for="Lietotājs.E_pasts" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Parole" class="form-label">Parole</label>
+                <input type="password" class="form-control" id="Parole" name="Parole" asp-for="Lietotājs.Parole" required />
+                <span asp-validation-for="Lietotājs.Parole" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Reģistrēties</button>
+        </form>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script src="~/js/script.js"></script>
+</body>
+</html>

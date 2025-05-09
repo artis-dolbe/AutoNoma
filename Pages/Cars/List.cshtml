@@ -1,0 +1,35 @@
+@page
+@model AutoNomā.Pages.Cars.ListModel
+
+@{
+    ViewData["Title"] = "Automobiļu saraksts";
+}
+
+<div class="container">
+    <h2>Pieejamās automašīnas</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Marka</th>
+                <th>Modelis</th>
+                <th>Gads</th>
+                <th>Cena par stundu</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model.Cars)
+            {
+                <tr>
+                    <td>@car.Marka</td>
+                    <td>@car.Modelis</td>
+                    <td>@car.Gads</td>
+                    <td>@car.CenaParStundu €</td>
+                    <td>
+                        <a href="/Reservations/Create?carId=@car.Id" class="btn btn-primary">Veikt rezervāciju</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
