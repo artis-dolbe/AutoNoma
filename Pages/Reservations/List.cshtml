@@ -1,0 +1,51 @@
+@page
+@model AutoNomā.Pages.Reservations.ListModel
+
+@{
+    ViewData["Title"] = "Rezervāciju saraksts";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">📋 Rezervāciju saraksts</h2>
+
+    @if (Model.Rezervācijas.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>Auto</th>
+                    <th>No</th>
+                    <th>Līdz</th>
+                    <th>Statuss</th>
+                    <th>Darbības</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rez in Model.Rezervācijas)
+                {
+                    <tr class="text-center">
+                        <td>@rez.Id</td>
+                        <td>@rez.Auto?.Marka @rez.Auto?.Modelis (@rez.Auto?.Gads)</td>
+                        <td>@rez.StartDate.ToString("yyyy-MM-dd")</td>
+                        <td>@rez.EndDate.ToString("yyyy-MM-dd")</td>
+                        <td>@rez.Statuss</td>
+                        <td>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@rez.Id" 
+                                  onsubmit="return confirm('Vai tiešām dzēst šo rezervāciju?');">
+                                  @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-danger">Dzēst</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">
+            ⛔ Šobrīd nav nevienas rezervācijas.
+        </div>
+    }
+</div>

@@ -1,43 +1,41 @@
-@page
+@page "/Reservations/Create"
 @model AutoNomā.Pages.Reservations.CreateModel
 
 @{
     ViewData["Title"] = "Veikt rezervāciju";
 }
 
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8">
+        <h2 class="mb-4 text-center">Veikt rezervāciju</h2>
 
-<form method="post">
-    <input type="hidden" name="Rezervācija.AutoId" value="1" />
-    <input type="hidden" name="Rezervācija.StartDate" value="2025-05-10" />
-    <input type="hidden" name="Rezervācija.EndDate" value="2025-05-11" />
-    <button type="submit">TESTS → Veikt rezervāciju</button>
-</form>
+        <form method="post" class="border p-4 shadow rounded bg-light">
+            @Html.AntiForgeryToken()
 
-<h2>Veikt rezervāciju</h2>
+            <div class="mb-3">
+                <label for="AutoId" class="form-label">Izvēlieties automašīnu</label>
+                <select id="AutoId" name="Rezervācija.AutoId" class="form-select" required>
+                    <option value="">-- Izvēlieties --</option>
+                    @foreach (var car in Model.Cars)
+                    {
+                        <option value="@car.Id">@car.Marka @car.Modelis (@car.Gads)</option>
+                    }
+                </select>
+            </div>
 
-<form method="post">
-    <div class="form-group">
-        <label for="AutoId">Izvēlieties automašīnu</label>
-        <select id="AutoId" name="Rezervācija.AutoId" class="form-control" required>
-            @foreach (var car in Model.Cars)
-            {
-                <option value="@car.Id">@car.Marka @car.Modelis</option>
-            }
-        </select>
+            <div class="mb-3">
+                <label for="StartDate" class="form-label">Sākuma datums</label>
+                <input id="StartDate" name="Rezervācija.StartDate" type="date" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="EndDate" class="form-label">Beigu datums</label>
+                <input id="EndDate" name="Rezervācija.EndDate" type="date" class="form-control" required />
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg">✅ Veikt rezervāciju</button>
+            </div>
+        </form>
     </div>
-
-    <div class="form-group">
-        <label for="StartDate">Sākuma datums</label>
-        <input type="date" name="Rezervācija.StartDate" class="form-control" required />
-    </div>
-
-    <div class="form-group">
-        <label for="EndDate">Beigu datums</label>
-        <input type="date" name="Rezervācija.EndDate" class="form-control" required />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Veikt rezervāciju</button>
-</form>
-
-
-
+</div>

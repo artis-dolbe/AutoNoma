@@ -1,0 +1,25 @@
+@page
+@model AutoNomā.Pages.Cars.CreateModel
+
+<h2>Pievienot jaunu automašīnu</h2>
+
+<form method="post">
+    <div class="form-group mb-2">
+        <label asp-for="Auto.Marka"></label>
+        <input asp-for="Auto.Marka" class="form-control" required />
+    </div>
+    <div class="form-group mb-2">
+        <label asp-for="Auto.Modelis"></label>
+        <input asp-for="Auto.Modelis" class="form-control" required />
+    </div>
+    <div class="form-group mb-2">
+        <label asp-for="Auto.Gads"></label>
+        <input asp-for="Auto.Gads" class="form-control" type="number" required />
+    </div>
+    <div class="form-group mb-2">
+        <label asp-for="Auto.CenaParStundu"></label>
+        <input asp-for="Auto.CenaParStundu" class="form-control" type="number" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Saglabāt</button>
+</form>

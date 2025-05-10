@@ -17,6 +17,8 @@ namespace AutoNomā.Models
         public DateTime EndDate { get; set; }
 
         public string? Statuss { get; set; }
+        public Auto? Auto { get; set; }
+
     }
 }
 

@@ -2,19 +2,21 @@
 @model AutoNomā.Pages.IndexModel
 
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Sākums";
 }
 
-<div class="jumbotron text-center">
-    <h1 class="display-4">Laipni lūdzam Car Rental sistēmā!</h1>
-    <p class="lead">Lūdzu izvēlieties darbību:</p>
-    <hr class="my-4">
-    <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="/Cars/List">
-            🚗 Skatīt automašīnu sarakstu
-        </a>
-        <a class="list-group-item list-group-item-action" href="/Reservations/Create">
-            📝 Veikt rezervāciju
-        </a>
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container py-5 text-center">
+        <h1 class="display-4">Laipni lūdzam Car Rental sistēmā!</h1>
+        <p class="lead">Ērta automašīnu izvēle un rezervēšana jebkurā laikā.</p>
+        <hr class="my-4" />
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a class="btn btn-primary btn-lg" href="/Cars/List">
+                🚗 Skatīt automašīnu sarakstu
+            </a>
+            <a class="btn btn-success btn-lg" href="/Reservations/Create">
+                📝 Veikt rezervāciju
+            </a>
+        </div>
     </div>
 </div>

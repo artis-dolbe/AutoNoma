@@ -1,21 +1,27 @@
+using AutoNomā.Data;
 using AutoNomā.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AutoNomā.Pages.Cars
 {
     public class ListModel : PageModel
     {
-        public List<Auto> Cars { get; set; } = new List<Auto>();
+        private readonly AppDbContext _context;
+
+        public ListModel(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public List<Auto> Cars { get; set; } = new();
 
         public void OnGet()
         {
-            
-            Cars = new List<Auto>
-            {
-                new Auto { Marka = "Toyota", Modelis = "Corolla", Gads = 2020, CenaParStundu = 15 },
-                new Auto { Marka = "BMW", Modelis = "320i", Gads = 2021, CenaParStundu = 25 }
-            };
+            Cars = _context.Automobiļi
+                .ToList();
         }
     }
 }

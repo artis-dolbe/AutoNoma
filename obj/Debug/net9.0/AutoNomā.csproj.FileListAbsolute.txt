@@ -32,6 +32,7 @@ C:\Users\artis\AutoNomā\obj\Debug\net9.0\AutoNomā.MvcApplicationPartsAssemblyI
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\AutoNomā.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\AutoNomā.RazorAssemblyInfo.cache
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\AutoNomā.RazorAssemblyInfo.cs
+C:\Users\artis\AutoNomā\obj\Debug\net9.0\AutoNomā.sourcelink.json
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\scopedcss\bundle\AutoNomā.styles.css
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\compressed\2lw8svl41y-1qkk0lyg8m.gz
 C:\Users\artis\AutoNomā\obj\Debug\net9.0\compressed\l9csw7qxkh-bo9yccq1sq.gz

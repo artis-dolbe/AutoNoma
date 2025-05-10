@@ -7,8 +7,8 @@ namespace AutoNomā.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Lietotājs> Lietotāji { get; set; }
         public DbSet<Auto> Automobiļi { get; set; }
         public DbSet<Rezervācija> Rezervācijas { get; set; }
+        public DbSet<Lietotājs> Lietotāji { get; set; }
     }
 }
